@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #007bff;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.input-text {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.input-text:focus {
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.btn-add {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-add:hover {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #212529;
+  color: #f8f9fa;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 0.75rem;
+  transition: transform 0.2s;
+}
+
+.task-item:hover {
+  transform: scale(1.05);
+}
+
+.task-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.task-title {
+  font-weight: bold;
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+.task-checkbox {
+  margin-right: 0.5rem;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-delete:hover {
+  background-color: rgba(220, 53, 69, 0.8);
+}
+
+.task-description {
+  margin-top: 0.5rem;
+}
+
+.task-done {
+  text-decoration: line-through;
+  background-color: #343a40;
+}
