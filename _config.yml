@@ -1,0 +1,11 @@
+title: My Jekyll Site
+description: A description of my site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+theme: jekyll-theme-primer
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
